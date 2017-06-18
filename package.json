@@ -1,0 +1,20 @@
+{
+  "name": "csom-node-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "csom-node": "^0.1.5"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.0.1",
+    "webpack": "^2.6.0"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
